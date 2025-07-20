@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="circle"></div>
+        <div class="register-form-container">
+            <h1 class="form-title">
+                Регистрация
+            </h1>
+            <form action="src/login.php" method="post">
+                <div class="form-fields">
+                    <div class="form-field">
+                        <input required type="text" placeholder="Имя">
+                    </div>
+                    <div class="form-field">
+                        <input required type="text" placeholder="Почта">
+                    </div>
+                    <div class="form-field">
+                        <input required type="password" placeholder="Пароль">
+                    </div>
+                    <div class="form-field">
+                        <input required type="text" placeholder="Подтвердите пароль">
+                    </div>
+    
+                    <div class="form-button">
+                        <button class="button">Зарегестрируйтесь</button>
+                        <div class="divider">или</div>
+                        <a href="login.html" class="button-log">Войдите</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
